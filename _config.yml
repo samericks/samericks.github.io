@@ -1,8 +1,8 @@
 # Basic Information 
-title: Your Name
+title: Samuel Erickson
 position: Ph.D. Student
-affiliation: Your Affiliation
-email: yourname (at) example.edu
+affiliation: EECS, KTH Royal Institute of Technology
+email: samuelea (at) kth.se
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
@@ -14,15 +14,15 @@ canonical: https://minimal-light-theme.yliu.me/
 # If you don't need one of them, you may delete the corresponding line.
 google_scholar: https://scholar.google.com/
 cv_link: assets/files/curriculum_vitae.pdf
-github_link: https://github.com/
-linkedin: https://www.linkedin.com/
-twitter: https://twitter.com/
+github_link: https://github.com/samericks
+linkedin: https://www.linkedin.com/in/samuel-erickson-andersson
+# twitter: https://twitter.com/
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
 avatar: ./assets/img/avatar.png
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon-dark.png
+favicon: ./assets/img/fstar.svg
+favicon_dark: ./assets/img/fstar.svg
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
@@ -34,7 +34,7 @@ auto_dark_mode: true
 
 # Font
 # You can use this option to choose between Serif or Sans Serif fonts.
-font: "Serif" # or "Sans Serif"
+font: "Sans Serif" # or "Sans Serif"
 
 # Google Analytics ID
 # Please remove this if you don't use Google Analytics
