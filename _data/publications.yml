@@ -3,19 +3,18 @@ main:
   - title: Clipping Makes Distributed and Federated Asynchronous SGD Robust to Stragglers
     authors: Samuel Erickson, Mikael Johansson
     conference_short: ICML
-    conference: International Conference on Machine Learning <strong>(ICML)</strong>,  Seoul, South Korea, 2026.
+    conference: Proceedings of the 43rd International Conference on Machine Learning, Seoul, South Korea. PMLR 306, 2026.
     pdf: https://arxiv.org/pdf/2606.13287
+    page: https://icml.cc/virtual/2026/poster/65724
     code: https://github.com/samericks/clipped-asgd
-    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:IRaXZhh25X4J:scholar.google.com/&output=citation&scisdr=CsnvV6j6EODm57gJKmI:AM1tuoMAAAAAamoPMmL6zPONCZrdG9DbwJnM2Ik&scisig=AM1tuoMAAAAAamoPMgKH_SuHl1nifNTRpukbI1M&scisf=4&ct=citation&cd=-1&hl=en
+    bibtex: ./assets/files/bibtex/icml2026.bib
     image: ./assets/img/icml2026.png
 
-  # - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-  #   authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-  #   conference_short: CVPR
-  #   conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-  #   pdf: https://arxiv.org/pdf/2002.10211.pdf
-  #   code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-  #   page: https://class-il.mpi-inf.mpg.de/mnemonics/
-  #   bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-  #   notes: Oral Presentation
-  #   image: ./assets/img/teaser_example.png
+  - title: An Introduction to Metric Spaces
+    authors: Samuel Erickson, Anders Björn, David Wiman
+    conference_short: Lecture notes
+    pdf: https://courses.mai.liu.se/GU/TATA34/An_Introduction_to_Metric_Spaces.pdf
+    page: https://courses.mai.liu.se/GU/TATA34/kurslitteratur.html
+    notes: Lectures notes for TATA34
+    bibtex: ./assets/files/bibtex/metric_spaces.bib
+    image: ./assets/img/metricspace.png

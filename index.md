@@ -42,7 +42,7 @@ Mathematics, both from Linköping University.
     <strong>Stanford University</strong>
 
 <div style="display: flex; justify-content: space-between;">
-  <span>Research Scholar, Electrical Engineering</span>
+  <span>Visiting Graduate Student, Electrical Engineering</span>
   <em>2022 – 2023</em>
 </div>
 
