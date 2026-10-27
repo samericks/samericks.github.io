@@ -6,7 +6,7 @@ home: true
 <section class="content-section" id="about" aria-labelledby="about-heading">
   <div class="section-heading"><h2 id="about-heading">About me</h2></div>
   <div class="section-body prose" markdown="1">
-I am a Ph.D. student in Electrical Engineering at KTH Royal Institute of Technology, advised by [Prof. Mikael Johansson](https://people.kth.se/~mikaelj/index.html).
+I am a WASP affiliated PhD student at KTH, advised by [Prof. Mikael Johansson](https://people.kth.se/~mikaelj/index.html).
 
 My research focuses on optimization for machine learning, including distributed and federated learning. My work also spans sparse statistical estimation and optimal control.
 
