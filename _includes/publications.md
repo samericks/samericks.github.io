@@ -1,51 +1,22 @@
-<h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
-
-<div class="publications">
-<ol class="bibliography">
-
-{% for link in site.data.publications.main %}
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    {% if link.image %} 
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
-    {% if link.conference_short %} 
-    <abbr class="badge">{{ link.conference_short }}</abbr>
-    {% endif %}
-    {% endif %}
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
-      <div class="author">{{ link.authors }}</div>
-      <div class="periodical"><em>{{ link.conference }}</em>
+<section class="content-section" id="publications" aria-labelledby="publications-heading">
+  <div class="section-heading"><h2 id="publications-heading">Papers &amp; notes</h2></div>
+  <div class="section-body publication-list">
+    {% for publication in site.data.publications.main %}
+    <article class="publication">
+      <div class="publication-details">
+        {% if publication.conference_short %}<p class="publication-type">{{ publication.conference_short }}</p>{% endif %}
+        <h3><a href="{{ publication.pdf }}">{{ publication.title }}</a></h3>
+        <p class="authors">{{ publication.authors }}</p>
+        {% if publication.conference %}<p class="venue">{{ publication.conference }}</p>{% endif %}
+        {% if publication.notes %}<p class="venue">{{ publication.notes }}</p>{% endif %}
+        <div class="publication-links">
+          {% if publication.pdf %}<a href="{{ publication.pdf }}">PDF <span aria-hidden="true">↗</span></a>{% endif %}
+          {% if publication.code %}<a href="{{ publication.code }}">Code <span aria-hidden="true">↗</span></a>{% endif %}
+          {% if publication.page %}<a href="{{ publication.page }}">Page <span aria-hidden="true">↗</span></a>{% endif %}
+          {% if publication.bibtex %}<a href="{{ publication.bibtex | relative_url }}">BibTeX <span aria-hidden="true">↗</span></a>{% endif %}
+        </div>
       </div>
-    <div class="links">
-      {% if link.pdf %} 
-      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      {% endif %}
-      {% if link.code %} 
-      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      {% endif %}
-      {% if link.page %} 
-      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Page</a>
-      {% endif %}
-      {% if link.bibtex %} 
-      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
-      {% endif %}
-      {% if link.notes %} 
-      <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
-      {% endif %}
-      {% if link.others %} 
-      {{ link.others }}
-      {% endif %}
-    </div>
+    </article>
+    {% endfor %}
   </div>
-</div>
-</li>
-<br>
-
-{% endfor %}
-
-</ol>
-</div>
+</section>

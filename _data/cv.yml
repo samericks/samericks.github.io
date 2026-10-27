@@ -1,0 +1,49 @@
+awards:
+  - organization: Linköping University, Institute of Technology
+    description: Full tuition covered for studies at Stanford University (€40,000).
+    dates: 2022 & 2023
+  - organization: Carl Erik Levin Foundation
+    description: Two scholarships supporting studies at Stanford University (€6,000).
+    dates: 2022 & 2023
+  - organization: Dr. Felix Neubergh Foundation
+    description: Scholarship supporting studies at Stanford University (€2,000).
+    dates: '2023'
+  - organization: Tryggve Holm Scholarship
+    description: Scholarship for outstanding performance as a graduate student (€2,000).
+    dates: '2022'
+  - organization: Engineers of Sweden
+    description: Scholarship supporting studies at Stanford University (€2,000).
+    dates: '2022'
+supervision:
+  - author: Sofia Veríssimo Simões
+    title: Fast Stabilisation and Robust Control of Micro Quadrotors for In-Flight Launch from a Mothership Aircraft
+    degree: Master’s thesis
+    year: 2026
+  - author: Maja Larsson
+    title: Hybrid Retrieval-Augmented Generation (RAG) for Candidate-Job Matching
+    degree: Master’s thesis
+    year: 2026
+  - author: Johan Hedstrand Welander
+    title: Benchmarking Agentic LLMs for Market Monitoring
+    degree: Master’s thesis
+    year: 2026
+  - author: Mattias Trende
+    diva: https://kth.diva-portal.org/smash/record.jsf?pid=diva2:2018713
+    title: Reduction of Vertical Acceleration for Hydrofoil Boats in Wavy Conditions
+    degree: Master’s thesis
+    year: 2025
+  - author: Filippa Nilsson
+    diva: https://kth.diva-portal.org/smash/record.jsf?pid=diva2:1987422
+    title: House Valuation using Laplacian Regularized Stratified Modeling
+    degree: Master’s thesis
+    year: 2025
+  - author: Elliot Collin
+    diva: https://kth.diva-portal.org/smash/record.jsf?pid=diva2:2018712
+    title: Reducing vertical Accelerations in Electric Hydrofoil Boats Using Model Predictive Control
+    degree: Master’s thesis
+    year: 2025
+  - author: Jelena Bukorovic and Silvia Lü
+    diva: https://kth.diva-portal.org/smash/record.jsf?pid=diva2:2033123
+    title: Occupant Window Behavior in Smart Buildings
+    degree: Bachelor’s thesis
+    year: 2025

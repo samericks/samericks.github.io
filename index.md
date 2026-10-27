@@ -1,89 +1,46 @@
 ---
 layout: homepage
+home: true
 ---
 
-## About Me
+<section class="content-section" id="about" aria-labelledby="about-heading">
+  <div class="section-heading"><h2 id="about-heading">About me</h2></div>
+  <div class="section-body prose" markdown="1">
+I am a Ph.D. student in Electrical Engineering at KTH Royal Institute of Technology, advised by [Prof. Mikael Johansson](https://people.kth.se/~mikaelj/index.html).
 
-I am a Ph.D. student at KTH Royal Institute of Technology, advised by [Prof.
-Mikael Johansson](https://people.kth.se/~mikaelj/index.html). 
+My research focuses on optimization for machine learning, including distributed and federated learning. My work also spans sparse statistical estimation and optimal control.
 
-My research is focused on large scale distributed learning for deep learning.
-But I am broadly interested in machine learning, statistics and optimization,
-particularly with applications in medicine and finance. 
-
-I hold a MSc. in Engineering Mathematics from Linköpings universitet, the first
-year of which I spent at Stanford University as a visiting graduate student.
-During the spring of 2024 I conducted my master's thesis research at [Lynx
-Asset Management](https://www.lynxhedge.se/en/). Prior to my year at Stanford,
-I obtained a BSc. in Applied Physics and Electrical Engineering, and a BSc. in
-Mathematics, both from Linköping University.
-
-## Education
-
-
-<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
-  <img src="/assets/img/kth.png" alt="KTH logo" width="40" style="margin-right: 20px;">
-
-  <div style="flex-grow: 1;">
-    <strong>KTH Royal Institute of Technology</strong>
-
-<div style="display: flex; justify-content: space-between;">
-  <span>PhD, Electrical Engineering</span>
-  <em>2024 – 2028</em>
-</div>
-
+I hold an M.Sc. in Applied Mathematics and B.Sc. degrees in Mathematics and in Applied Physics and Electrical Engineering from Linköping University. During my master's studies, I spent a full academic year at Stanford University as a visiting graduate student. I conducted my master's thesis research at [Lynx Asset Management](https://www.lynxhedge.se/en/), developing methods for sparse inverse covariance estimation.
   </div>
-</div>
+</section>
 
-<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
-  <img src="/assets/img/stanford.png" alt="Stanford logo" width="35" style="margin-right: 20px;">
-
-  <div style="flex-grow: 1;">
-    <strong>Stanford University</strong>
-
-<div style="display: flex; justify-content: space-between;">
-  <span>Visiting Graduate Student, Electrical Engineering</span>
-  <em>2022 – 2023</em>
-</div>
-
+<section class="content-section" id="education" aria-labelledby="education-heading">
+  <div class="section-heading"><h2 id="education-heading">Education</h2></div>
+  <div class="section-body education-list">
+    <article class="education-entry">
+      <div class="institution-logo"><img src="{{ '/assets/img/kth.png' | relative_url }}" alt="" width="44" height="44" loading="lazy"></div>
+      <div class="education-details">
+        <h3>KTH Royal Institute of Technology</h3>
+        <div class="degree"><p>Ph.D., Electrical Engineering</p><p class="dates">2024 – Present</p></div>
+      </div>
+    </article>
+    <article class="education-entry">
+      <div class="institution-logo"><img src="{{ '/assets/img/stanford.png' | relative_url }}" alt="" width="40" height="52" loading="lazy"></div>
+      <div class="education-details">
+        <h3>Stanford University</h3>
+        <div class="degree"><p>Visiting Graduate Student</p><p class="dates">2022 – 2023</p></div>
+      </div>
+    </article>
+    <article class="education-entry">
+      <div class="institution-logo"><img src="{{ '/assets/img/liu.png' | relative_url }}" alt="" width="44" height="44" loading="lazy"></div>
+      <div class="education-details">
+        <h3>Linköping University</h3>
+        <div class="degree"><p>M.Sc., Applied Mathematics</p><p class="dates">2022 – 2024</p></div>
+        <div class="degree"><p>B.Sc., Mathematics</p><p class="dates">2019 – 2022</p></div>
+        <div class="degree"><p>B.Sc., Applied Physics and Electrical Engineering</p><p class="dates">2019 – 2022</p></div>
+      </div>
+    </article>
   </div>
-</div>
+</section>
 
-<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
-  <img src="/assets/img/liu.png" alt="LiU logo" width="40" style="margin-right: 20px;">
-
-  <div style="flex-grow: 1;">
-    <strong>Linköping University</strong>
-
-<div style="display: flex; justify-content: space-between;">
-  <span>MSc., Engineering Mathematics</span>
-  <em>2022 – 2024</em>
-</div>
-
-<div style="display: flex; justify-content: space-between;">
-  <span>BSc., Mathematics</span>
-  <em>2021 – 2024</em>
-</div>
-
-<div style="display: flex; justify-content: space-between;">
-  <span>BSc., Applied Physics and Electrical Engineering</span>
-  <em>2019 – 2022</em>
-</div>
-
-  </div>
-</div>
-<!-- ## Research Interests -->
-<!---->
-<!-- - **Computer Vision:** image recognition, image generation, video captioning -->
-<!-- - **Machine Learning:** meta-learning, incremental learning, transfer learning -->
-<!---->
-<!-- ## News -->
-<!---->
-<!-- - **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020. -->
-<!-- - **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore! -->
-<!-- - **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019. -->
-<!-- - **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019. -->
-<!---->
-{% include_relative _includes/publications.md %}
-
-<!-- {% include_relative _includes/services.md %} -->
+{% include awards.html %}

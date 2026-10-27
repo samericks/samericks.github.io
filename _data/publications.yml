@@ -1,5 +1,21 @@
 main:
 
+  - title: Data-Driven Laplacian-Constrained Personalized Federated Learning
+    authors: Samuel Erickson, Mikael Johansson
+    conference_short: Preprint · 2026
+    conference: "arXiv:2505.07575"
+    pdf: https://arxiv.org/pdf/2505.07575
+    page: https://arxiv.org/abs/2505.07575
+    image: ./assets/img/pfl-figure-3.png
+
+  - title: "DAOCP: A Dual Active Set Solver for Optimal Control Problems"
+    authors: Alberto Zaupa, Samuel Erickson, Mikael Johansson
+    conference_short: Preprint · 2026
+    conference: "arXiv:2609.33451"
+    pdf: https://arxiv.org/pdf/2609.33451
+    page: https://arxiv.org/abs/2609.33451
+    image: ./assets/img/daocp-figure-2.png
+
   - title: Clipping Makes Distributed and Federated Asynchronous SGD Robust to Stragglers
     authors: Samuel Erickson, Mikael Johansson
     conference_short: ICML
@@ -10,11 +26,26 @@ main:
     bibtex: ./assets/files/bibtex/icml2026.bib
     image: ./assets/img/icml2026.png
 
+  - title: Non-asymptotic Estimation of Sparse Partial Correlation via Joint Partial Regression
+    authors: Samuel Erickson, Tobias Rydén
+    conference_short: Preprint · 2025
+    conference: "arXiv:2502.08414"
+    pdf: https://arxiv.org/pdf/2502.08414
+    page: https://arxiv.org/abs/2502.08414
+    image: ./assets/img/jpr-network.png
+    code: https://github.com/Samuel-Erickson-Andersson/Joint-Partial-Regression
+
+  - title: Estimation of Sparse Inverse Covariance Matrices with Applications to Portfolio Selection
+    authors: Samuel Erickson
+    conference_short: Master’s thesis · 2024
+    conference: Department of Mathematics, Linköping University.
+    pdf: https://liu.diva-portal.org/smash/get/diva2:1887060/FULLTEXT01.pdf
+
   - title: An Introduction to Metric Spaces
     authors: Samuel Erickson, Anders Björn, David Wiman
     conference_short: Lecture notes
     pdf: https://courses.mai.liu.se/GU/TATA34/An_Introduction_to_Metric_Spaces.pdf
     page: https://courses.mai.liu.se/GU/TATA34/kurslitteratur.html
-    notes: Lectures notes for TATA34
+    notes: Lecture notes for TATA34
     bibtex: ./assets/files/bibtex/metric_spaces.bib
     image: ./assets/img/metricspace.png
