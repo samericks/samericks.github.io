@@ -19,8 +19,7 @@
     <div class="navigation-band">
       <header class="container site-header">
         <nav aria-label="Main navigation">
-          <a href="{{ '/' | relative_url }}#about"{% if page.home %} aria-current="page"{% endif %}>About</a>
-          <a href="{{ '/' | relative_url }}#education">Education</a>
+          <a href="{{ '/' | relative_url }}"{% if page.home %} aria-current="page"{% endif %}>About</a>
           <a href="{{ '/publications/' | relative_url }}"{% if page.url == '/publications/' %} aria-current="page"{% endif %}>Publications</a>
           <a href="{{ '/teaching/' | relative_url }}"{% if page.url == '/teaching/' %} aria-current="page"{% endif %}>Teaching</a>
           <a href="{{ site.cv_link | relative_url }}">CV <span aria-hidden="true">↗</span></a>
