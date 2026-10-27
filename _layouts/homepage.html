@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ site.description | escape }}">
   <meta name="theme-color" content="#155f6f">
+  <meta name="color-scheme" content="light">
   <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}{% unless page.title %} · {{ site.position }}{% endunless %}</title>
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <link rel="icon" href="{{ site.favicon | relative_url }}" type="image/svg+xml">
@@ -15,8 +16,8 @@
 <body id="top">
   <a class="skip-link" href="#main">Skip to content</a>
   <div class="masthead">
-    <div class="container">
-      <header class="site-header">
+    <div class="navigation-band">
+      <header class="container site-header">
         <nav aria-label="Main navigation">
           <a href="{{ '/' | relative_url }}#about"{% if page.home %} aria-current="page"{% endif %}>About</a>
           <a href="{{ '/' | relative_url }}#education">Education</a>
@@ -25,6 +26,8 @@
           <a href="{{ site.cv_link | relative_url }}">CV <span aria-hidden="true">↗</span></a>
         </nav>
       </header>
+    </div>
+    <div class="container">
       {% if page.home %}
       <div class="hero">
         <div class="hero-copy">

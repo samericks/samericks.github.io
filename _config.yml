@@ -47,6 +47,7 @@ google_analytics: UA-111540567-4
 
 # The following files will be removed from the generated website.
 exclude:
+  - scripts/
   - Gemfile
   - Gemfile.lock
   - README.md
